@@ -20,10 +20,6 @@ import {TranslateModule} from '@ngx-translate/core';
 import {FileUploadModule} from 'primeng/fileupload';
 import {FullCalendarModule} from '@fullcalendar/angular';
 
-import { ClientCreateAdminComponent } from './client/create/client-create-admin.component';
-import { ClientEditAdminComponent } from './client/edit/client-edit-admin.component';
-import { ClientViewAdminComponent } from './client/view/client-view-admin.component';
-import { ClientListAdminComponent } from './client/list/client-list-admin.component';
 import { ProduitCreateAdminComponent } from './produit/create/produit-create-admin.component';
 import { ProduitEditAdminComponent } from './produit/edit/produit-edit-admin.component';
 import { ProduitViewAdminComponent } from './produit/view/produit-view-admin.component';
@@ -45,10 +41,6 @@ import {PaginatorModule} from 'primeng/paginator';
 @NgModule({
   declarations: [
 
-    ClientCreateAdminComponent,
-    ClientListAdminComponent,
-    ClientViewAdminComponent,
-    ClientEditAdminComponent,
     ProduitCreateAdminComponent,
     ProduitListAdminComponent,
     ProduitViewAdminComponent,
@@ -87,10 +79,6 @@ import {PaginatorModule} from 'primeng/paginator';
 
   ],
   exports: [
-  ClientCreateAdminComponent,
-  ClientListAdminComponent,
-  ClientViewAdminComponent,
-  ClientEditAdminComponent,
   ProduitCreateAdminComponent,
   ProduitListAdminComponent,
   ProduitViewAdminComponent,

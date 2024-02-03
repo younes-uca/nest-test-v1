@@ -66,33 +66,6 @@ export class AppMenuComponent implements OnInit {
     this.modelAdmin =
       [
               {
-                label: 'Achat',
-                icon: 'pi pi-wallet',
-                items: [
-                          {
-                            label: 'Liste achat',
-                            icon: 'pi pi-fw pi-plus-circle',
-                            routerLink: ['/app/admin/achat/achat/list']
-                          },
-                          {
-                            label: 'Liste achat item',
-                            icon: 'pi pi-fw pi-plus-circle',
-                            routerLink: ['/app/admin/achat/achat-item/list']
-                          },
-                ]
-              },
-              {
-                label: 'Client',
-                icon: 'pi pi-wallet',
-                items: [
-                          {
-                            label: 'Liste client',
-                            icon: 'pi pi-fw pi-plus-circle',
-                            routerLink: ['/app/admin/commun/client/list']
-                          },
-                ]
-              },
-              {
                 label: 'Produit',
                 icon: 'pi pi-wallet',
                 items: [

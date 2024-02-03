@@ -40,11 +40,6 @@ import { RegisterAdminComponent } from './register-admin/register-admin.componen
                             loadChildren: () => import('./view/commun/commun-admin-routing.module').then(x => x.CommunAdminRoutingModule),
                             canActivate: [AuthGuard],
                         },
-                        {
-                            path: 'achat',
-                            loadChildren: () => import('./view/achat/achat-admin-routing.module').then(x => x.AchatAdminRoutingModule),
-                            canActivate: [AuthGuard],
-                        },
                     ]
                 },
             ]

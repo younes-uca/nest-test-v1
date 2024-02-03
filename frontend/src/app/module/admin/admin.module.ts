@@ -20,8 +20,6 @@ import {BadgeModule} from 'primeng/badge';
 import { MultiSelectModule } from 'primeng/multiselect';
 import { CommunAdminModule } from './view/commun/commun-admin.module';
 import { CommunAdminRoutingModule } from './view/commun/commun-admin-routing.module';
-import { AchatAdminModule } from './view/achat/achat-admin.module';
-import { AchatAdminRoutingModule } from './view/achat/achat-admin-routing.module';
 
 
 import { PasswordModule } from 'primeng/password';
@@ -68,15 +66,12 @@ import {MessagesModule} from 'primeng/messages';
     MultiSelectModule,
   CommunAdminModule,
   CommunAdminRoutingModule,
-  AchatAdminModule,
-  AchatAdminRoutingModule,
   ],
   exports: [
   LoginAdminComponent,
   RegisterAdminComponent,
 
     CommunAdminModule,
-    AchatAdminModule,
   ],
   entryComponents: [],
 })

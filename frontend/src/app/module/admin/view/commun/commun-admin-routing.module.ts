@@ -7,7 +7,6 @@ import { AuthGuard } from 'src/app/controller/guards/auth.guard';
 
 
 
-import { ClientListAdminComponent } from './client/list/client-list-admin.component';
 import { ProduitListAdminComponent } from './produit/list/produit-list-admin.component';
 @NgModule({
     imports: [
@@ -17,18 +16,6 @@ import { ProduitListAdminComponent } from './produit/list/produit-list-admin.com
                     path: '',
                     children: [
 
-
-                        {
-
-                            path: 'client',
-                            children: [
-                                {
-                                    path: 'list',
-                                    component: ClientListAdminComponent ,
-                                    canActivate: [AuthGuard]
-                                }
-                            ]
-                        },
 
                         {
 
